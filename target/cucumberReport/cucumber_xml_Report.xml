@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.374" tests="8" skipped="0" failures="8" errors="0">
+<testcase classname="User Registeration Functionallity" name="Register with mandatory fields" time="0.046">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to Register page........................................undefined
+When User enters the below details..........................................skipped
+And Select Privacy Policy field.............................................skipped
+And Click on continue button................................................skipped
+Then Account should Register successfully...................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registeration Functionallity" name="Register with all fields" time="0.031">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to Register page........................................undefined
+When User enters the below details..........................................skipped
+And Select the Yes option in Newsletter.....................................skipped
+And Select Privacy Policy field.............................................skipped
+And Click on continue button................................................skipped
+Then Account should Register successfully...................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registeration Functionallity" name="Register without providing any fields" time="0.015">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to Register page........................................undefined
+When User dont enter details into any fields................................skipped
+And Click on continue button................................................skipped
+Then User should get warning message........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registeration Functionallity" name="Register with duplicate email address" time="0.031">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to Register page........................................undefined
+When User enters the below details..........................................skipped
+And Select the Yes option in Newsletter.....................................skipped
+And Select Privacy Policy field.............................................skipped
+And Click on continue button................................................skipped
+Then Warning message about duplicate email address is displayed.............skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registeration Functionallity" name="Register with mandatory fields" time="0.015">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to Register page........................................undefined
+When User enters the below details..........................................skipped
+And Select Privacy Policy field.............................................skipped
+And Click on continue button................................................skipped
+Then Account should Register successfully...................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registeration Functionallity" name="Register with all fields" time="0.031">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to Register page........................................undefined
+When User enters the below details..........................................skipped
+And Select the Yes option in Newsletter.....................................skipped
+And Select Privacy Policy field.............................................skipped
+And Click on continue button................................................skipped
+Then Account should Register successfully...................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registeration Functionallity" name="Register without providing any fields" time="0.015">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to Register page........................................undefined
+When User dont enter details into any fields................................skipped
+And Click on continue button................................................skipped
+Then User should get warning message........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Registeration Functionallity" name="Register with duplicate email address" time="0.015">
+<failure/>
+<system-out><![CDATA[
+Given User navigate to Register page........................................undefined
+When User enters the below details..........................................skipped
+And Select the Yes option in Newsletter.....................................skipped
+And Select Privacy Policy field.............................................skipped
+And Click on continue button................................................skipped
+Then Warning message about duplicate email address is displayed.............skipped
+]]></system-out>
+</testcase>
+</testsuite>
